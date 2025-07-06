@@ -14,7 +14,6 @@ const nextConfig = {
     productionBrowserSourceMaps: false,
     distDir: '.next',
     crossOrigin: 'anonymous',
-    swcMinify: true,
 
     env: {
         customKey: 'my-value', // Accessible via {process.env.customKey}
@@ -41,8 +40,7 @@ const nextConfig = {
     },
 
     devIndicators: {
-        buildActivity: true,
-        buildActivityPosition: 'bottom-left',
+        position: 'bottom-left',
     },
 
     images: {
