@@ -17,7 +17,7 @@ const features: FeatItem[] = [
 ];
 
 const Feature: React.FC<FeatItem> = ({ name }) => (
-    <li className="flex items-center text-gray-900 mt-2">
+    <li className="flex items-center text-gray-900 dark:text-gray-100 mt-2">
         <svg className="w-4 h-4 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="transparent" viewBox="0 0 24 24" stroke="green">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.75" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
@@ -31,7 +31,7 @@ const CdcHomePage: React.FC = () => {
             <section className="full-viewport py-12 bg-white dark:bg-black sm:py-16 lg:py-20">
 
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-                    <div className="px-8 py-10 overflow-hidden lg:px-24 md:py-20 bg-gray-50 rounded-3xl">
+                    <div className="px-8 py-10 overflow-hidden lg:px-24 md:py-20 bg-gray-50 dark:bg-gray-900 rounded-3xl">
 
                         {/* Header */}
                         <div className="px-0 mx-auto max-w-7xl">
@@ -39,18 +39,18 @@ const CdcHomePage: React.FC = () => {
 
 
                                 <div className="flex justify-between items-center">
-                                    <h2 className="text-3xl font-bold sm:text-4xl bg-gradient-to-r from-blue-400 to-violet-950 text-transparent bg-clip-text">
+                                    <h2 className="text-3xl font-bold sm:text-4xl bg-gradient-to-r from-blue-400 to-violet-950 dark:from-blue-300 dark:to-violet-400 text-transparent bg-clip-text">
                                         cdc homepage.
                                     </h2>
                                     <ColorThemeSwitcher />
                                 </div>
 
-                                <p className="mt-4 text-sm font-normal leading-6 text-gray-500">
+                                <p className="mt-4 text-sm font-normal leading-6 text-gray-500 dark:text-gray-400">
                                     Get started with a static site using Next.js, Tailwind CSS, and TypeScript. Deploy to GitHub Pages using GitHub Actions.
                                 </p>
 
                                 <div className="mt-4">
-                                    <a href="https://github.com/codesign-cloud/cdc-homepage" title="CDC Homepage" className="inline-flex items-center text-base font-medium text-gray-900 group">
+                                    <a href="https://github.com/codesign-cloud/cdc-homepage" title="CDC Homepage" className="inline-flex items-center text-base font-medium text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 group">
                                         View repo
                                         <svg className="w-5 h-5 ml-2 transition-all duration-200 transform group-hover:translate-x-1"
                                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
