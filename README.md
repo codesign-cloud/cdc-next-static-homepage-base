@@ -3,6 +3,8 @@
 
 You can see the GH Pages' live build [here](https://codesign-cloud.github.io/cdc-next-static-homepage-base/).
 
+![Screenshot](public/screenshot.png "cdc homepage preview")
+
 ### Clone from base repo
 
 ``````
